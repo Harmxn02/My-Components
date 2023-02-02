@@ -1,0 +1,49 @@
+.wrapper {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background: #171727;
+}
+
+.cube {
+	color: white;
+	font-size: 40px;
+	font-weight: 900;
+	width: 350px;
+}
+
+.front {
+	background: #6e6ee0;
+}
+
+.bottom {
+	background: #eaeaee;
+	color: #6e6ee0;
+}
+
+.front,
+.bottom {
+	display: grid;
+	place-items: center;
+	height: 100px;
+}
+
+.cube {
+	height: 100px;
+	transition: transform 0.25s;
+	transform-style: preserve-3d;
+}
+
+.bottom {
+	transform: rotateX(-90deg) translateZ(-50px);
+}
+
+.front {
+	transform: translateZ(50px);
+}
+
+.cube:hover {
+	transform: rotateX(90deg);
+}
