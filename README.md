@@ -8,19 +8,20 @@ This repository contains various UI components designed using Tailwind CSS and r
 
 ## Usage
 
-1. Clone the repository
-1. Navigate to the `component` directory
-1. Run `npm install` to install dependencies
-1. Run `npm run dev` to start a local development server
-1. Open `[http://localhost:3000]` with your browser to see the result.
-
 **You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.**
 
-## Copy the commands
+&nbsp;
 
-``` bash
+## Getting started
+
+**copy these commands and paste them in your terminal, and press
+<kbd>Enter</kbd>**
+
+```bash
 git clone https://github.com/Harmxn02/My-Components.git
 cd My-Components
 npm install
 npm run dev
 ```
+
+### After running these commands click or browse to **`http://localhost:3000`**
