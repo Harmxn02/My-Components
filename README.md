@@ -25,3 +25,11 @@ npm run dev
 ```
 
 ### After running these commands click or browse to **`http://localhost:3000`**
+
+&nbsp;
+
+## Example
+
+Rotating Button
+
+![rotatingCube](./src/gifs/rotating-cube.gif)
