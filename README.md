@@ -28,7 +28,7 @@ npm run dev
 
 &nbsp;
 
-## Example
+## Examples
 
 Rotating Button
 
