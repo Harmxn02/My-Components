@@ -1,0 +1,41 @@
+.wrapper {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background: darkslategray;
+}
+
+.input {
+	font-size: 2rem;
+	padding: 0.5em;
+	margin: 2rem;
+	background-color: white;
+	color: black;
+}
+
+.input:invalid {
+	animation: shake 300ms;
+	color: red;
+	/* background-color: rgb(255, 0, 0, 0.25); */
+	border: 2px solid red;
+}
+
+.input:focus {
+	outline: none;
+}
+
+@keyframes shake {
+	25% {
+		transform: translateX(4px);
+	}
+
+	50% {
+		transform: translateX(-4px);
+	}
+
+	75% {
+		transform: translateX(4px);
+	}
+}
