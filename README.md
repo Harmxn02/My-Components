@@ -33,3 +33,7 @@ npm run dev
 Rotating Button
 
 ![rotatingCube](./src/gifs/rotating-cube.gif)
+
+Invalid Input
+
+![invalidInput](./src/gifs/invalid-input.gif)
